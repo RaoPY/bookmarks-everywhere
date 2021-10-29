@@ -1,0 +1,20 @@
+#navbarContainer {
+    background-color: #121212;
+    padding: 20px;
+}
+
+#navbarContainer span {
+    display: inline-block;
+    margin: 5px 10px;
+    text-transform: uppercase;
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+#navbarContainer span:hover {
+    opacity: 1;
+}
+
+#logoutBtn {
+    float: right;
+}

@@ -1,0 +1,43 @@
+#addBookmarkForm {
+    background-color: #121212;
+    text-align: center;
+    width: 30%;
+    margin: auto;
+    margin-top: 40px;
+    padding: 30px 20px;
+    border-radius: 10px;
+}
+
+#bookmarkUrl, #bookmarkTitle {
+    background-color: white;
+    color: #121212;
+    border: none;
+    width: 90%;
+    margin-bottom: 10px;
+    padding: 8px;
+    font-size: 16px;
+}
+
+#bookmarkUrl:focus, #bookmarkTitle:focus {
+    outline: none;
+}
+
+#addBookmarkForm button {
+    background-color: #f600ff;
+    color: white;
+    border: none;
+    width: 90%;
+    padding: 8px;
+    font-size: 16px;
+}
+
+#addBookmarkForm button:hover {
+    cursor: pointer;
+    background-color: #f833ff;
+}
+
+@media (max-width: 768px) {
+    #addBookmarkForm {
+        width: 80%;
+    }
+}

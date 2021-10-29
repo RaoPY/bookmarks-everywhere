@@ -1,0 +1,60 @@
+#editBookmarkContainer {
+    background-color: #121212;
+    text-align: center;
+    width: 40%;
+    margin: auto;
+    margin-top: 40px;
+    padding: 50px 30px;
+    border-radius: 10px;
+}
+
+#editBookmarkContainer h1 {
+    margin-bottom: 25px;
+}
+
+#editBookmarkContainer input {
+    background-color: white;
+    color: #121212;
+    border: none;
+    font-size: 16px;
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#editBookmarkContainer input:focus {
+    outline: none;
+}
+
+#editBookmarkContainer button {
+    border: none;
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#saveEditBtn {
+    background-color: hsl(203, 100%, 50%);
+    color: white; 
+}
+
+#saveEditBtn:hover {
+    cursor: pointer;
+    background-color: hsl(203, 100%, 60%);
+}
+
+#deleteBtn {
+    background-color: hsl(346, 100%, 50%);
+    color: white;
+}
+
+#deleteBtn:hover {
+    cursor: pointer;
+    background-color: hsl(346, 100%, 40%);
+}
+
+@media (max-width: 768px) {
+    #editBookmarkContainer {
+        width: 80%;
+    }
+}

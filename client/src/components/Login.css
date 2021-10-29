@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+
+#loginContainer {
+    background-color: #172b46;
+    border-radius: 10px;
+    box-shadow: 0px 0px 25px #081426;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 350px;
+}
+
+#loginContainer h1 {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+#loginContainer input {
+    color: #172b46;
+    font-size: 16px;
+    width: 80%;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+#loginContainer input:focus {
+    outline: none;
+}
+
+#loginContainer button {
+    background-color: transparent;
+    color: white;
+    border: 2px solid #7ce5d9;
+    font-size: 18px;
+    width: 80%;
+    padding: 10px;
+    margin-top: 15px;
+    transition: 0.3s;
+}
+
+#loginContainer button:hover {
+    background-color: #7ce5d9;
+    color: #0a1930;
+    cursor: pointer;
+}
+
+#loginContainer p {
+    margin-top: 50px;
+    opacity: 0.5;
+}
+
+#loginContainer p:hover {
+    opacity: 1;
+    cursor: pointer;
+}

@@ -1,0 +1,106 @@
+#myAccountContainer {
+    text-align: center;
+    background-color: #121212;
+    border-radius: 10px;
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+    padding: 30px 0px;
+}
+
+#profilePicture {
+    margin: auto;
+    padding-top: 22px;
+    font-size: 42px;
+    background-color: #bb86fc;
+    border: 5px solid white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+#myAccountContainer h1 {
+    margin-top: 10px;
+}
+
+.line {
+    width: 90%;
+    margin: 25px auto;
+    opacity: 0.1;
+}
+
+#myAccountContainer h2 {
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+#myAccountContainer input {
+    background-color: transparent;
+    color: white;
+    border: 2px solid #03dac6;
+    margin: 10px;
+    padding: 10px;
+    width: 25%;
+    font-size: 16px;
+}
+
+#myAccountContainer input:focus {
+    outline: none;
+}
+
+#myAccountContainer button {
+    padding: 10px;
+    border: none;
+    width: 15%;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.changeBtn {
+    background-color: transparent;
+    color: white;
+    outline: 2px solid #03dac6;
+    transition: 0.3s;
+}
+
+.changeBtn:hover {
+    background-color: #03dac6;
+    color: #121212;
+}
+
+#deleteAccountBtn {
+    background-color: transparent;
+    color: white;
+    outline: 2px solid #ff003c;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+#deleteAccountBtn:hover {
+    background-color: #ff003c;
+}
+
+@media (max-width: 768px) {
+    #myAccountContainer {
+        width: 80%;
+    }
+
+    #myAccountContainer h2 {
+        margin-bottom: 25px;
+    }
+
+    #myAccountContainer input {
+        display: block;
+        text-align: center;
+        width: 80%;
+        margin: auto;
+        margin-top: 10px;
+    }
+
+    #myAccountContainer button {
+        display: block;
+        width: 80%;
+        margin: auto;
+        margin-top: 10px;
+    }
+}

@@ -5,7 +5,7 @@
 > ### https://raopy.github.io/bookmarks-everywhere
 
 A **MERN stack** app to save and access your bookmarks anywhere.
-- Server deployed on <a href="https://www.heroku.com/">Heroku</a>.
+- Server deployed on <a href="https://www.heroku.com/">Heroku</a>. (Changed to <a href="https://www.cyclic.sh/">Cyclic</a>)
 - User data stored on <a href="https://account.mongodb.com/account/login">MongoDB Atlas</a>.
 
 <img src="https://user-images.githubusercontent.com/86762534/139536704-336397c7-9bc4-4397-b9d3-44ca33d59883.png" width="500px">
